@@ -1,0 +1,17 @@
+<div class="banner" ng-style="{'background-image':'url({{$ctrl.event.thumbnails.s_cd}})'}">
+	<div class="fixed-bottom">
+		<div class="row">
+			<span>{{ $ctrl.event.type | eventType }} </span><span>{{$ctrl.event.start_date | date:'dd-MM-yyyy'}}</span>
+			<span>{{ $ctrl.event.city.name }}</span>
+		</div>
+		<div class="row">
+			<div class="col-md-8 not-padding">
+				<strong>{{ $ctrl.event.title | cut:true:30}}</strong>
+			</div>
+			<div class="col-md-4 pull-right not-padding">
+				<span class="d-block pull-right">{{ $ctrl.event.price  | currency:'':2 }} <span>{{ $ctrl.event.currency | currencyToSimbol }}</span></span>
+				<span class="d-block pull-right">{{ $ctrl.event.followers_count + " Van a ir"}} </span>
+			</div>
+		</div>
+	</div>
+</div>

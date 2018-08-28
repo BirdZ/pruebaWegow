@@ -1,0 +1,50 @@
+body {
+	color: white;
+	font-size: 13px;
+	background: black;
+	padding: 100px 10%;
+}
+.container-fluid {
+	background: rgb(0, 25, 25);
+}
+
+.banner-container {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 160px;
+}
+.banner {
+	height: 100%;
+	position: relative;
+	padding: 5px 0;
+	background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    background-position-y: center;
+    background-size: 100% auto;
+}
+.fixed-bottom {
+    bottom: 0px;
+    position: absolute;
+    height: 45%;
+    background: rgba(0,0,0, 0.5);
+    width: 100%;
+    padding: 5px;
+}
+
+.row {
+	padding: 0px 15px;
+}
+
+.d-block {
+	display: block;
+}
+.pull-right span{
+	text-align: right;
+}
+.not-padding {
+	padding: 0 0;
+}
+span {
+	white-space: nowrap;
+	line-height: 14px;
+}
